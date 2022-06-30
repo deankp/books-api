@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 })
 
 // Books
-const booksController = require('./controllers/books_controller.js')
+const booksController = require('./controller/books_controller.js')
 app.use('/books', booksController)
 
 // 404 PAGE
